@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@600&display=swap');
+body{
+  background-image: url('../public/joker1.jpg');
+  background-repeat: 1;
+  background-position: center;
+  /* background-size: cover;  */
+  
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+:root{
+  --bodyFont : 'Edu NSW ACT Foundation', cursive;
+}
+@media only screen and (min-width: 850px) {
+  body {
+    background-image: url('../public/joker2.jpg');
+    background-repeat: 1;
+    background-position: center;
+  }
+}
